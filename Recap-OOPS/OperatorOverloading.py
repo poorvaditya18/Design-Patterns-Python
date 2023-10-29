@@ -15,7 +15,6 @@ class Vector:
     # --> str means this will return a string
     def __repr__(self)->str:
         return f"{self.x}i + {self.y}j"
-        pass
 
     def magnitude(self)->float:
         return math.sqrt(self.x*self.x + self.y*self.y)
